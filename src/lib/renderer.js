@@ -77,3 +77,4 @@ export function drawPose(ctx, keypoints, keypoints3d, skeleton, angles) {
     }
   });
 }
+
