@@ -123,7 +123,7 @@ export default function Home() {
             <div className="grid grid-cols-2 h-5/6 w-2/3 mx-10">
               <div className="w-full h-full">
                 <h2 className="text-2xl text-white mt-6 font-semibold mb-4">
-                  Pick a curated activity
+                  Select a demo activity
                 </h2>
                 <div>
                   {CURATED.map(({ title, description, url, image }) => {
@@ -155,7 +155,7 @@ export default function Home() {
 
               <div className="w-full h-full flex flex-col px-10">
                 <h2 className="text-2xl text-white mt-6 font-semibold">
-                  Use a video from YouTube
+                  video from YouTube
                 </h2>
                 <input
                   className="mt-5 border-b-2 text-white bg-white/20 placeholder-white/30 p-2 rounded appearance-none focus:outline-none"
@@ -171,7 +171,7 @@ export default function Home() {
                   Use Video
                 </button>
                 <h2 className="text-2xl text-white mt-16 font-semibold">
-                  Or upload your own
+                  Or select from device
                 </h2>
                 <label
                   htmlFor="file-upload"
