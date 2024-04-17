@@ -86,25 +86,25 @@ export default function Home() {
         className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-sky-700`}
         id="background"
       >
-        // <div
-        //   id="permas"
-        //   className="flex gap-10 h-1/4 overflow-x-hidden pt-4 opacity-50"
-        // >
-        //   {range(10, 1)
-        //     .concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-        //     .map((i) => {
-        //       return (
-        //         <video
-        //           key={i}
-        //           className="rounded bg-white/40 w-[100px]"
-        //           src={`img/${i}.mp4`}
-        //           autoPlay
-        //           muted
-        //           loop
-        //         />
-        //       );
-        //     })}
-        // </div>
+        <div
+          id="permas"
+          className="flex gap-10 h-1/4 overflow-x-hidden pt-4 opacity-50"
+        >
+          {range(10, 1)
+            .concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+            .map((i) => {
+              return (
+                <video
+                  key={i}
+                  className="rounded bg-white/40 w-[100px]"
+                  src={`img/${i}.mp4`}
+                  autoPlay
+                  muted
+                  loop
+                />
+              );
+            })}
+        </div>
         <div className="w-full flex flex-row-reverse h-2/3 z-40">
           <div
             id="card"
