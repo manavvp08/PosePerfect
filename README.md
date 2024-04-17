@@ -20,7 +20,7 @@ PosePerfect is an innovative web application designed to help users master dance
 
 ## Live Link
 
-🔗 [PosePerfect Live](#) (https://myrepo2-pm04tyvs1-manav-purswanis-projects.vercel.app/)
+🔗 [PosePerfect Live]([https://www.example.com](https://pose-perfectt-live.vercel.app/))
 
 ## Images
 
