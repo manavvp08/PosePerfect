@@ -83,7 +83,7 @@ export default function Home() {
         <link rel="preload" href="img/10.MP4" as="video" />
       </Head>
       <main
-        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hiddenbg-sky-700`}
+        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-sky-700`}
         id="background"
       >
         <div
