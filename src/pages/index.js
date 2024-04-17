@@ -83,7 +83,7 @@ export default function Home() {
         <link rel="preload" href="img/10.MP4" as="video" />
       </Head>
       <main
-        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-sky-700`}
+        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hiddenbg-sky-700`}
         id="background"
       >
         <div
@@ -111,19 +111,19 @@ export default function Home() {
             className="rounded-2xl bg-transparent h-5/6 w-full my-auto flex flex-col justify-center items-center"
           >
             <div className="h-1/6 w-full justify-center flex flex-col items-center mb-8">
-              <h1 className={"text-yellow-400 text-5xl " + Abril.className}>
+              <h1 className={"text-yellow-500 text-5xl " + Abril.className}>
                 PosePerfect
               </h1>
               <p className="text-white mt-2 w-1/3 text-center opacity-80">
-                Ready to boost your fitness? Just upload a quick clip of the activity you're excited to try,
-                 and let's get moving together!
+                Your at-home AI coach for dance, yoga, and other workouts.
+                Upload an activity video to get started.
               </p>
             </div>
 
             <div className="grid grid-cols-2 h-5/6 w-2/3 mx-10">
               <div className="w-full h-full">
                 <h2 className="text-2xl text-white mt-6 font-semibold mb-4">
-                   Select a demo activity to tryy
+                  Pick a curated activity
                 </h2>
                 <div>
                   {CURATED.map(({ title, description, url, image }) => {
@@ -165,17 +165,17 @@ export default function Home() {
                   onChange={(e) => setUrl(e.target.value)}
                 />
                 <button
-                  className="bg-indigo-400 w-[140px] hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
+                  className="bg-[#9333ea] w-[140px] hover:bg-[#7e22ce] transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
                   onClick={() => sendURL()}
                 >
                   Use Video
                 </button>
                 <h2 className="text-2xl text-white mt-16 font-semibold">
-                 Or select from device
+                  Or upload your own
                 </h2>
                 <label
                   htmlFor="file-upload"
-                  className="w-[140px] text-center cursor-pointer bg-indigo-400 hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6 mt-10"
+                  className="w-[140px] text-center cursor-pointer bg-[#9333ea] hover:bg-[#7e22ce] transition rounded text-white font-bold w-fit px-4 py-2 mt-6 mt-10"
                 >
                   Upload
                   <input
