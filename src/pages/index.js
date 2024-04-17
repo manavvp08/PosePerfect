@@ -141,7 +141,7 @@ Introducing your virtual fitness buddy - dance, yoga, and more! Just upload a vi
                   onChange={(e) => setUrl(e.target.value)}
                 />
                 <button
-                  className="bg-[#9333ea] w-[140px] hover:bg-[#7e22ce] transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
+                  className=""bg-indigo-400  hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
                   onClick={() => sendURL()}
                 >
                   Use Video
@@ -151,7 +151,7 @@ Introducing your virtual fitness buddy - dance, yoga, and more! Just upload a vi
                 </h2>
                 <label
                   htmlFor="file-upload"
-                  className="w-[140px] text-center cursor-pointer bg-[#9333ea] hover:bg-[#7e22ce] transition rounded text-white font-bold w-fit px-4 py-2 mt-6 mt-10"
+                  className="w-[140px] text-center cursor-pointer "bg-indigo-400  hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6 mt-10"
                 >
                   Upload
                   <input
