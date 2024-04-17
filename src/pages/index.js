@@ -15,16 +15,10 @@ const Abril = Abril_Fatface({
 
 const CURATED = [
   {
-    image: "/img/ariana.webp",
-    title: "Pop Dance",
-    description: "Choreo for Dangerous Woman by Ariana Grande.",
-    url: "https://www.youtube.com/watch?v=7tkfX2phlfE&t=2s",
-  },
-  {
-    image: "/img/glass.png",
-    title: "Hip Hop Dance",
-    description: "Choreo for Heat Waves by Glass Animals.",
-    url: "https://www.youtube.com/watch?v=wzVONhY-oa8",
+    image: "/img/cover1.png",
+    title: "Dance",
+    description: "Easy dance choreography",
+    url: "https://youtu.be/9TWj9I3CKzg?si=Z5pFQMz_MYLT01Uh",
   },
   {
     image: "/img/yoga.png",
