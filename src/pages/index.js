@@ -86,7 +86,25 @@ export default function Home() {
         className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-sky-700`}
         id="background"
       >
-        
+        // <div
+        //   id="permas"
+        //   className="flex gap-10 h-1/4 overflow-x-hidden pt-4 opacity-50"
+        // >
+        //   {range(10, 1)
+        //     .concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+        //     .map((i) => {
+        //       return (
+        //         <video
+        //           key={i}
+        //           className="rounded bg-white/40 w-[100px]"
+        //           src={`img/${i}.mp4`}
+        //           autoPlay
+        //           muted
+        //           loop
+        //         />
+        //       );
+        //     })}
+        // </div>
         <div className="w-full flex flex-row-reverse h-2/3 z-40">
           <div
             id="card"
@@ -97,14 +115,15 @@ export default function Home() {
                 PosePerfect
               </h1>
               <p className="text-white mt-2 w-1/3 text-center opacity-80">
-              Ready to boost your fitness? Just upload a quick clip of the activity you're excited to try, and let's get moving together!
+                Ready to boost your fitness? Just upload a quick clip of the activity you're excited to try,
+                 and let's get moving together!
               </p>
             </div>
 
             <div className="grid grid-cols-2 h-5/6 w-2/3 mx-10">
               <div className="w-full h-full">
                 <h2 className="text-2xl text-white mt-6 font-semibold mb-4">
-                 Select a demo activity to try
+                   Select a demo activity to tryy
                 </h2>
                 <div>
                   {CURATED.map(({ title, description, url, image }) => {
@@ -149,14 +168,14 @@ export default function Home() {
                   className="bg-indigo-400 w-[140px] hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
                   onClick={() => sendURL()}
                 >
-                  Use Above
+                  Use Video
                 </button>
                 <h2 className="text-2xl text-white mt-16 font-semibold">
-                  Or select from device
+                 Or select from device
                 </h2>
                 <label
                   htmlFor="file-upload"
-                  className="bg-indigo-400 w-[140px] hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
+                  className="w-[140px] text-center cursor-pointer bg-indigo-400 hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6 mt-10"
                 >
                   Upload
                   <input
@@ -170,12 +189,10 @@ export default function Home() {
                   />
                 </label>
               </div>
-
-            
-        
             </div>
           </div>
         </div>
+
         <div
           id="permas2"
           className="flex gap-10 h-1/4 overflow-x-hidden pb-4 opacity-50"
@@ -195,8 +212,6 @@ export default function Home() {
               );
             })}
         </div>
-
-      
       </main>
     </>
   );
