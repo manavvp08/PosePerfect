@@ -15,16 +15,10 @@ const Abril = Abril_Fatface({
 
 const CURATED = [
   {
-    image: "/img/ariana.webp",
-    title: "Pop Dance",
-    description: "Choreo for Dangerous Woman by Ariana Grande.",
-    url: "https://www.youtube.com/watch?v=7tkfX2phlfE&t=2s",
-  },
-  {
-    image: "/img/glass.png",
-    title: "Hip Hop Dance",
-    description: "Choreo for Heat Waves by Glass Animals.",
-    url: "https://www.youtube.com/watch?v=wzVONhY-oa8",
+    image: "/img/cover1.png",
+    title: "Dance",
+    description: "Easy dance choreography",
+    url: "https://youtu.be/9TWj9I3CKzg?si=Z5pFQMz_MYLT01Uh",
   },
   {
     image: "/img/yoga.png",
@@ -83,47 +77,28 @@ export default function Home() {
         <link rel="preload" href="img/10.MP4" as="video" />
       </Head>
       <main
-        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-background`}
+        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-sky-700`}
         id="background"
       >
-        <div
-          id="permas"
-          className="flex gap-10 h-1/4 overflow-x-hidden pt-4 opacity-50"
-        >
-          {range(10, 1)
-            .concat([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
-            .map((i) => {
-              return (
-                <video
-                  key={i}
-                  className="rounded bg-white/40 w-[100px]"
-                  src={`img/${i}.mp4`}
-                  autoPlay
-                  muted
-                  loop
-                />
-              );
-            })}
-        </div>
+        
         <div className="w-full flex flex-row-reverse h-2/3 z-40">
           <div
             id="card"
             className="rounded-2xl bg-transparent h-5/6 w-full my-auto flex flex-col justify-center items-center"
           >
             <div className="h-1/6 w-full justify-center flex flex-col items-center mb-8">
-              <h1 className={"text-pink-pop text-5xl " + Abril.className}>
-                MotionMuse
+              <h1 className={"text-yellow-400 text-5xl " + Abril.className}>
+                PosePerfect
               </h1>
               <p className="text-white mt-2 w-1/3 text-center opacity-80">
-                Your at-home AI coach for dance, yoga, and other workouts.
-                Upload an activity video to get started.
+              Ready to boost your fitness? Just upload a quick clip of the activity you're excited to try, and let's get moving together!
               </p>
             </div>
 
             <div className="grid grid-cols-2 h-5/6 w-2/3 mx-10">
               <div className="w-full h-full">
                 <h2 className="text-2xl text-white mt-6 font-semibold mb-4">
-                  Pick a curated activity
+                 Select a demo activity to try
                 </h2>
                 <div>
                   {CURATED.map(({ title, description, url, image }) => {
@@ -165,17 +140,17 @@ export default function Home() {
                   onChange={(e) => setUrl(e.target.value)}
                 />
                 <button
-                  className="bg-[#9333ea] w-[140px] hover:bg-[#7e22ce] transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
+                  className="bg-indigo-400 w-[140px] hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
                   onClick={() => sendURL()}
                 >
-                  Use Video
+                  Use Above
                 </button>
                 <h2 className="text-2xl text-white mt-16 font-semibold">
-                  Or upload your own
+                  Or select from device
                 </h2>
                 <label
                   htmlFor="file-upload"
-                  className="w-[140px] text-center cursor-pointer bg-[#9333ea] hover:bg-[#7e22ce] transition rounded text-white font-bold w-fit px-4 py-2 mt-6 mt-10"
+                  className="bg-indigo-400 w-[140px] hover:bg-indigo-500 transition rounded text-white font-bold w-fit px-4 py-2 mt-6"
                 >
                   Upload
                   <input
@@ -189,10 +164,12 @@ export default function Home() {
                   />
                 </label>
               </div>
+
+            
+        
             </div>
           </div>
         </div>
-
         <div
           id="permas2"
           className="flex gap-10 h-1/4 overflow-x-hidden pb-4 opacity-50"
@@ -212,7 +189,10 @@ export default function Home() {
               );
             })}
         </div>
+
+      
       </main>
     </>
   );
 }
+
