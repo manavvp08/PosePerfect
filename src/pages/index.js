@@ -115,8 +115,7 @@ export default function Home() {
                 PosePerfect
               </h1>
               <p className="text-white mt-2 w-1/3 text-center opacity-80">
-                Your at-home AI coach for dance, yoga, and other workouts.
-                Upload an activity video to get started.
+                 Ready to boost your fitness? Just upload a quick clip of the activity you're excited to try, and let's get moving together!
               </p>
             </div>
 
