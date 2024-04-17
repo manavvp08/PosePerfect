@@ -323,7 +323,7 @@ export default function Home() {
   }, []);
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between bg-background ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center justify-between bg-sky-700 ${inter.className}`}
     >
       <div className="flex flex-col w-full justify-center items-center py-12">
         <h1 className={"text-pink-pop text-6xl ml-5 " + Abril.className}>
@@ -359,7 +359,7 @@ export default function Home() {
             <div>
               <button
                 onClick={() => updatePaused()}
-                className="text-xl text-white p-3 bg-pink-pop rounded-full"
+                className="text-xl text-white p-3 bg-yellow-500 rounded-full"
               >
                 {paused ? <FaPlay /> : <FaPause />}
               </button>
