@@ -114,8 +114,9 @@ export default function Home() {
               <h1 className={"text-yellow-500 text-5xl " + Abril.className}>
                 PosePerfect
               </h1>
-              <p className="text-white mt-2 w-1/3 text-center opacity-80">
-                 Ready to boost your fitness? Just upload a quick clip of the activity you're excited to try, and let's get moving together!
+              <p className="text-white mt-2 w-1/3 text-center opacity-80">           
+Introducing your virtual fitness buddy - dance, yoga, and more! Just upload a video of the activity you are excited about, and embark on journey together.
+              Get moving and groove together!
               </p>
             </div>
 
