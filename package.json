@@ -1,0 +1,33 @@
+{
+  "name": "danceai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mediapipe/pose": "^0.5.1675469404",
+    "@tensorflow-models/pose-detection": "^2.1.0",
+    "@tensorflow/tfjs-backend-webgl": "^4.4.0",
+    "@tensorflow/tfjs-converter": "^4.4.0",
+    "@tensorflow/tfjs-core": "^4.4.0",
+    "autoprefixer": "10.4.14",
+    "content-disposition": "^0.5.4",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "file-saver": "^2.0.5",
+    "gsap": "^3.11.5",
+    "imagesloaded": "^5.0.0",
+    "next": "13.3.1",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "tailwindcss": "3.3.1",
+    "ytdl-core": "^4.11.4"
+  }
+}
