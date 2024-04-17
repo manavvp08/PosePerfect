@@ -83,7 +83,7 @@ export default function Home() {
         <link rel="preload" href="img/10.MP4" as="video" />
       </Head>
       <main
-        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-sky-700`}
+        className={`h-screen w-screen bg-yellow flex flex-col ${inter.className} max-w-full overflow-hidden bg-background`}
         id="background"
       >
         <div
@@ -111,8 +111,8 @@ export default function Home() {
             className="rounded-2xl bg-transparent h-5/6 w-full my-auto flex flex-col justify-center items-center"
           >
             <div className="h-1/6 w-full justify-center flex flex-col items-center mb-8">
-              <h1 className={"text-yellow-400 text-5xl " + Abril.className}>
-                PosePerfect
+              <h1 className={"text-pink-pop text-5xl " + Abril.className}>
+                MotionMuse
               </h1>
               <p className="text-white mt-2 w-1/3 text-center opacity-80">
                 Your at-home AI coach for dance, yoga, and other workouts.
