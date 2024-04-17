@@ -1,39 +1,28 @@
-Check out our [Devpost](https://devpost.com/software/motionmuse) for project information.
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌟 PosePerfect
 
-## Getting Started
+PosePerfect is an innovative web application designed to help users master dance moves with ease.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Upload or Choose Dance Videos**: Users can upload or select dance videos from YouTube to learn various dance styles, from TikTok trends to well-defined choreography.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Side-by-Side Comparison**: View the chosen dance video alongside your computer camera feed for real-time feedback.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- **Computer Vision and Machine Learning**: Utilizes Tensorflow machine learning and computer vision libraries to analyze the user's body position in 3D and compare it with the reference video.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **Feedback and Corrections**: Highlights areas where the user's body doesn't match the reference video and provides guidance on correcting form.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- **Adjustable Playback Speed**: Practice at your own pace by adjusting the playback speed of the reference video.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Score System and Feedback Text**: Receive overall and current pose feedback through a score system and updating feedback text.
 
-## Learn More
+- **JavaScript and Next.js**: The logic and user interface are built using JavaScript and Next.js, with Canvas2D rendering for the skeleton overlay.
 
-To learn more about Next.js, take a look at the following resources:
+## Live Link
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 [PosePerfect Live](#) (https://myrepo2-pm04tyvs1-manav-purswanis-projects.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Images
 
-## Deploy on Vercel
+(*Include relevant images at the bottom of the readme file*)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
