@@ -326,8 +326,8 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between bg-sky-700 ${inter.className}`}
     >
       <div className="flex flex-col w-full justify-center items-center py-12">
-        <h1 className={"text-pink-pop text-6xl ml-5 " + Abril.className}>
-          MotionMuse
+        <h1 className={"text-yellow-400 text-6xl ml-5 " + Abril.className}>
+          PosePerfect
         </h1>
         {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
         <a href="/" className="text-white mt-4 hover:underline">
@@ -405,3 +405,4 @@ export default function Home() {
     </main>
   );
 }
+
